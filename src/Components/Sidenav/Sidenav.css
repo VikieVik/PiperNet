@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.sidebar-container {
+  z-index: 11;
+  width: 95px;
+  min-height: 100vh;
+  background-color: #14161a;
+  /**
+  box-shadow: 0 0 20px #000;
+  */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: left;
+}
+
+.logo-container {
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+#fusion-logo {
+  height: 45px;
+}
+
+#fusion-logo-text {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 26px;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  margin-left: 8px;
+}
+
+.sidebar-option-container {
+  display: none;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  padding-top: 10px;
+  width: 75px;
+  border-radius: 5px;
+  transition: background-color 200ms ease-in;
+}
+
+.nav-link:hover {
+  background-color: #334055;
+}
+
+.router-link {
+  text-decoration: none;
+}
+
+.nav-link h1 {
+  font-size: 14px;
+  text-decoration: none;
+  margin-top: 2px;
+  font-weight: 600;
+}
+
+Link {
+  text-decoration: none;
+}
+
+.hide-sidenav-button {
+  background-color: transparent;
+  cursor: pointer;
+  border: transparent;
+}
+
+#github {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
