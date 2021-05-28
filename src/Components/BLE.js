@@ -91,7 +91,7 @@ function handleChangedValue(event) {
 
   //  🐦 save to DB
   addPayload(payload);
-  //console.log(payload);
+  // console.log(payload);
 }
 
 function sendToBleDevice(data) {
